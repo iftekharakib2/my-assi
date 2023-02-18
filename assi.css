@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    background-color: #faf8f8;
+}
+
+/* nav part star  */
+.logo a {
+    color: rgb(211, 28, 28);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    background-color: transparent;
+
+}
+
+ul {
+    margin-left: 45%;
+}
+
+ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* nav part end */
+
+/* homepage part star  */
+.homepage {
+    background-image: url(./Anime-Wallpaper-Aesthetic-Wallpaper-Shounen-Jump-1\ \(1\).jpg);
+    width: 100%;
+    height: 60%;
+    margin-top: -50px;
+}
+
+.homepage h1,
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.homepage h1 {
+    padding-top: 8%;
+}
+
+/* homepage part end  */
+
+/* about part start */
+
+.aboutpage {
+    display: flex;
+
+}
+
+.about h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    margin-left: 350px;
+    padding: 10px;
+}
+
+.aboutimg {
+    height: 350px;
+    width: 320px;
+    background-color: #000000;
+    margin-left: 150px;
+    border-radius: 10%;
+}
+
+.aboutimg img {
+    height: 350px;
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10%;
+}
+
+.aboutpera {
+    height: 300px;
+    width: 1080px;
+    margin: 50px 0 0 200px;
+}
+
+.aboutpera p {
+    color: rgb(7, 7, 7);
+    text-align: start;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* about part end  */
+
+/* service part start */
+
+/* service part end */
+
+
+/* extra part start */
+.extra {
+    margin-top: 200px;
+}
+
+.extra h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.myextra {
+    display: flex;
+    
+}
+
+.aboutextra {
+    height: 550px;
+    width: 400px;
+    margin-left: 190px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: -8px 5px 28px 12px rgba(0, 0, 0, 0.1);
+    background-color: #1e9fd1;
+   
+}
+.aboutextra a{
+    text-decoration: none;
+}
+.aboutextra h1 {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.aboutextra p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin: 0 5%;
+   
+}
+
+.aboutextra img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* extra part end  */
+
+/* service and contact part start */
+.service {
+    margin-top: 200px;
+}
+
+.mycontact {
+    display: flex;
+    background-color:rgb(0 0 0) ;
+}
+.animelogo h1 {
+    margin-left:393px ;
+    margin-top:15px ;
+    color: #faf8f8;
+    background-color: #000000;
+}
+.animelogo img{
+    height:152px ;
+    width:156px ;
+    margin-left:355px ;
+   
+}
+
+.contact1 h1 {
+    text-align: justify;
+    font-size: 30px;
+    color:white ;
+}
+
+.contact1 a {
+    text-align: center ;
+    font-size: 20px;
+    color: #faf8f8;
+    text-decoration: none;
+}
+
+.contact1 {
+    margin-left: 40%;
+}
+.contact2 {    
+    text-align: justify;
+    font-size: 20px;    
+    margin-top: 10px;   
+    margin-left: 100px;
+}
+.contact2 a{
+    color: #faf8f8;
+    text-decoration: none;
+}
+.contact3 h1 {
+    text-align: justify;
+    font-size: 30px; 
+    color: #faf8f8;  
+}
+
+.contact3 a {
+    text-align: center ;
+    font-size: 20px;
+    color: #faf8f8;
+    text-decoration: none;
+}
+
+.contact3 {
+    margin-left: 200px;
+}
+/* service and contact part end  */
